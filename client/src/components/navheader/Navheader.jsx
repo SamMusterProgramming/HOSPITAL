@@ -14,7 +14,7 @@ const Navheader = () => {
        <div className="container-fluid d-xl-flex justify-content-xl-start mb-5 mt-5 align-items-center navigation">
             <div className="container-fluid d-flex justify-content-xl-start text-light logo">
               {/* <img src="../../components/hotel.jpg" alt="" className="img-fluid" />  */}
-              <span className='text-light '>Adventure</span> 
+              <span className='text-light '>ADVENTURE</span> 
             </div>
             <div className="text-light container-fluid d-flex gap-4  justify-content-xl-center sidebar">
               <a href=""><span>Explore</span></a>
