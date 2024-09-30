@@ -1,0 +1,175 @@
+.header {
+    background: url('../../assets/adventure.jpg');
+    /* width: 100%; */
+    background-size:cover;
+    /* background-color: blue; */
+}
+.sidebar{
+   width: 35%;
+}
+.sidebar a {
+    /* min-width: 30%; */
+    list-style: none;
+    line-height: none;
+    line-break: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.logo {
+    min-width: 30%;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.bookContainer {
+    min-width: 30%;
+}
+#book {
+    background-color: rgb(218, 61, 61);
+    color: aliceblue;
+    font-weight: 500;
+   
+}
+
+#title {
+    color: white;
+    font-weight: 500;
+    font-size: 55px;
+}
+#hotel {
+    color: rgb(211, 18, 98);
+}
+
+#checkin {
+    width: 40px;
+    height: 40px;
+    /* background-color: rgb(225, 14, 49); */
+    border-radius: 50px;
+}
+.checkin{
+    background-color: gray;
+}
+.checkin span{
+    font-size: 12px;
+    color: rgb(243, 237, 237);
+   
+}
+.checkin p {
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.in-date{
+    width: 100%;
+    height: 30%;
+    background-color: transparent;
+    border: none;
+    color: rgb(233, 222, 222);
+}
+
+.checkbox:hover {
+    cursor: pointer;
+}
+
+.checkout{
+    background-color: rgb(216, 14, 48);
+    font-weight: bold;
+    height:2.8em;
+    width: 10.5em;
+    color: aliceblue;
+    border: none;
+   border-radius: 20px;
+}
+
+@media  (width <= 1200px) {
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+    .sidebar{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1%;
+     }
+     .bookContainer {
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+     }
+     .sidebar a {
+        font-size: 15px;
+     }
+     .logo{
+        display: flex;
+        justify-content: center;
+     }
+}
+
+@media  (width < 800px) {
+    #title {
+        font-size: 35px;
+    }
+    #hotel {
+        color: rgb(202, 21, 222);
+    }
+    .checkin span{
+        color:white;
+        font-size: 10px;
+        /* color: rgb(107, 21, 21); */
+       
+    }
+    .checkin p {
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+    }
+    .checkout {
+        background-color: rgb(201, 15, 46);
+        font-weight: bold;
+        height:2.3em;
+        width: 7.5em;
+        color: aliceblue;
+        border: none;
+       border-radius: 20px;
+       font-size: 14px;
+       margin-bottom: 30px;
+    }
+    .checkin {
+      display: flex;
+      justify-content: start;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+}
+@media  (width < 650px) {
+    .checkin span{
+        color:white;
+        font-size: 8px;
+        /* color: rgb(107, 21, 21); */
+       
+    }
+    .checkin p {
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+    }
+    .checkout {
+        background-color: rgb(201, 15, 46);
+        font-weight: bold;
+        height:2.3em;
+        width: 7.5em;
+        color: aliceblue;
+        border: none;
+       border-radius: 20px;
+       font-size: 14px;
+    }
+}
