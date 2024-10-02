@@ -1,11 +1,14 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Navheader.css'
+import MenuIcon from '@material-ui/icons/Menu';
+import HotelIcon from '@mui/icons-material/Hotel';
+
 
 const Navheader = () => {
 
-  const d = new Date();
-  const [today,setToday] = useState (new Date()) 
-  console.log(today)
+
+ 
+   const[menu,setHome] = useState("")
 
   return (
     <>
@@ -14,14 +17,18 @@ const Navheader = () => {
        <div className="container-fluid d-xl-flex justify-content-xl-start mb-5 mt-5 align-items-center navigation">
             <div className="container-fluid d-flex justify-content-xl-start text-light logo">
               {/* <img src="../../components/hotel.jpg" alt="" className="img-fluid" />  */}
-              <span className='text-light '>ADVENTURE</span> 
+              <a href="home" id='adventure' >
+                <HotelIcon className='hotelIcon'/>
+                <span className='text-light' >ADVENTURE</span>
+                <HotelIcon className='hotelIcon'/>
+              </a>
             </div>
             <div className="text-light container-fluid d-flex gap-4  justify-content-xl-center sidebar">
-              <a href=""><span>Explore</span></a>
-              <a href="">Book</a>
-              <a href="">Licence</a>
-              <a href="">Sign up</a>
-            </div>
+              <span onClick={(e)=>{setHome("home")}} className= {menu == "home"?"active":""}><a>HOME</a> </span>
+              <span  onClick={(e)=>{setHome("explore")}} className= {menu == "explore"?"active":""}>EXPLORE</span>
+              <span onClick={(e)=>{setHome("license")}} className= {menu == "license"?"active":""}>LICENSE</span>
+               <span onClick={(e)=>{setHome("signup")}} className= {menu == "signup"?"active":""}>SIGN UP</span>
+            </div> 
             <div className="container-fluid text-center d-flex  justify-content-xl-end align-items-xl-end bookContainer ">
               <button id='book' className='btn'>Book Now</button>
             </div>
@@ -36,8 +43,10 @@ const Navheader = () => {
      
     <div className="container-fluid  d-flex gap-2 justify-content-md-between align-items-md-center checkin">
         <div className=" d-flex" >
-            <img className='img-fluid m-2' id='checkin' 
-            src={require("../../assets/checkin.png")} alt="checkin" /> 
+            {/* <img className='img-fluid m-2' id='checkin' 
+            src={require("../../assets/checkin.png")} alt="checkin" />  */}
+               <img className='img-fluid m-2' id='checkin' 
+            src={require("../../assets/checkin.png")} alt="checkin" />  
              <p className='mt-2'>Check-In<br/> <span>Check out</span></p>
             
         </div>

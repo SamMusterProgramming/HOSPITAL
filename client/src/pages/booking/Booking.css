@@ -1,0 +1,10 @@
+
+
+ .formContainer {
+    width: 60%;
+    min-height:700px ;
+ }
+ .roomContainer {
+    background-color: bisque;
+    min-height: 700px;
+ }
