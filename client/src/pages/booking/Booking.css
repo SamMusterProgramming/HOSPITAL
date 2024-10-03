@@ -2,9 +2,9 @@
 
  .formContainer {
     width: 60%;
-    min-height:700px ;
+    min-height:800px ;
  }
  .roomContainer {
-    background-color: bisque;
-    min-height: 700px;
+    /* background-color: bisque; */
+    min-height: 800px;
  }

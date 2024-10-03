@@ -66,9 +66,9 @@ const Home = () => {
                     <div className="col-lg-3 col-md-6">
                       <div className="card align-items-center text-center mb-4 shadow-md">
                           <img src={require("../../assets/luxury-oceanview.jpeg")} alt="" className="card-img-top" />
-                          <div class="card-body">
+                          <div className="card-body">
                             <h3>Deluxe Ocean View</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <button id="checkout">Book Now</button>
                           </div>
                       </div>
@@ -76,9 +76,9 @@ const Home = () => {
                     <div className="col-lg-3 col-md-6">
                     <div className="card align-items-center text-center mb-4 shadow-sm">
                           <img src={require("../../assets/luxury-oceanview.jpeg")} alt="" className="card-img-top" />
-                          <div class="card-body">
+                          <div className="card-body">
                             <h3>Deluxe Ocean View</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <button id="checkout">Book Now</button>
                           </div>
                       </div>
@@ -86,9 +86,9 @@ const Home = () => {
                     <div className="col-lg-3 col-md-6">
                     <div className="card align-items-center text-center mb-4 shadow-sm">
                           <img src={require("../../assets/luxury-oceanview.jpeg")} alt="" className="card-img-top" />
-                          <div class="card-body">
+                          <div className="card-body">
                             <h3>Deluxe Ocean View</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <button id="checkout">Book Now</button>
                           </div>
                       </div>
@@ -96,9 +96,9 @@ const Home = () => {
                     <div className="col-lg-3 col-md-6">
                     <div className="card align-items-center text-center mb-4 shadow-sm">
                           <img src={require("../../assets/luxury-oceanview.jpeg")} alt="" className="card-img-top" />
-                          <div class="card-body">
+                          <div className="card-body">
                             <h3>Deluxe Ocean View</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <button id="checkout">Book Now</button>
                           </div>
                       </div>
